@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster:regular&display=swap&subset=cyrillic-ext');
+@font-face {
+    font-family: 'Ozme';
+    src: url('../fonts/Ozme-Regular.woff2') format('woff2'), url('../fonts/Ozme-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+    font-family: 'Lobster', cursive;
+}
+
+img {
+    vertical-align: top;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Ozme';
+    font-size: 30px;
+}
+
+.wrapper {
+    background: url('../img/fon.jpg') 0 0 /245px fixed;
+}
+
+.container {
+    margin: 0px auto;
+    max-width: 100%;
+    width: 1450px;
+    padding: 30px;
+    background: url('../img/fon2.jpeg') center/cover fixed no-repeat;
+}
+
+header {
+    margin: 0px 0px 100px 0px;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.555);
+    border-radius: 25px;
+    padding: 20px;
+    border: 1px solid #d01b57;
+    display: block;
+    line-height: 45px;
+    box-shadow: 5px 5px 10px #0a0a0a;
+}
+
+nav {
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px 0px 0px 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    background-color: #fff;
+}
+
+nav a:visited {
+    color: red;
+}
+
+.text span:hover {
+    background-color: rgb(240, 20, 174);
+    border-radius: 25px;
+    padding: 0px 10px 0px 10px;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+}
+
+.header p {
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 15px 30px;
+    box-shadow: 15px 15px 35px #0c0000;
+}
+
+.header img {
+    border-radius: 15%;
+    max-width: 100%;
+    width: 300px;
+    float: left;
+    margin: 0px 50px 30px 10px;
+    box-shadow: 5px 5px 10px #0a0a0a;
+}
+
+h1 {
+    padding: 60px 0px 0px 0px;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    color: red;
+    text-shadow: 36px -18px 6px #d01b57;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 2px 2px 6px #f80556;
+    margin: 30px 0px 0px 0px;
+}
+
+.text p::first-line {
+    text-decoration: underline;
+}
+
+.shokolad {
+    background: url('../img/shokolad.jpg') center/cover fixed no-repeat;
+    color: #f5f3f3;
+    text-shadow: 1px 1px 2px #770303;
+}
+
+.shokolad p::first-line {
+    text-decoration: none;
+}
+
+.marcipan {
+    background: url('../img/marcipan.jpg') top center /auto no-repeat;
+    text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+.francia span {
+    background-color: rgb(240, 13, 183);
+}
+
+.francia p {
+    text-transform: capitalize;
+}
+
+.francia::before {
+    content: '';
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 0 0px 0px 0;
+    border-radius: 50%;
+    background: url('../img/dragocin.jpg') -60px -30px/200px no-repeat;
+    margin: 1px 59px -70px -96px;
+}
+
+.strasti {
+    text-align: center;
+}
+
+.francia::after {
+    content: '';
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: url('../img/flowers.jpg') center/200px no-repeat;
+    margin: -52px -263px -26px 59px;
+}
+
+.text p {
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow: 5px 5px 10px #0a0a0a;
+    margin: 30px 0px 0px 0px;
+    background-color: #fff;
+}
+
+.text p:first-letter {
+    color: red;
+    font-size: 45px;
+}
+
+.text p:hover {
+    box-shadow: 0px 0px 0px #f5f3f3;
+}
+
+text:last-of-type {
+    background-color: rgba(202, 51, 51, 0.993);
+}
+
+.text p:nth-child(2) {
+    background-color: rgba(202, 51, 51, 0.993);
+    border-radius: 50px;
+    padding: 20px 20px 20px 130px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 3px 2px #0a0a0a;
+}
+
+.text p:nth-child(2)::before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: url('../img/4775.jpg') 0 0/ cover no-repeat;
+    box-shadow: 5px 5px 10px #0a0a0a;
+    margin: -81px 15px -151px -155px;
+}
+
+.text p:nth-child(2):hover {
+    box-shadow: 5px 5px 10px #0a0a0a;
+}
+
+.link:focus {
+    outline: 1px solid red;
+    background-color: rgb(233, 17, 17);
+    color: #fff;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link:visited {
+    color: rgb(224, 13, 196);
+}
+
+.valentin {
+    display: none;
+    width: 250px;
+    margin: 30px auto;
+}
+
+.valentin:target {
+    display: block;
+}
+
+.block1:target {
+    background-color: rgb(17, 233, 222);
+    color: #fff;
+}
+
+.block2:target {
+    background-color: rgb(231, 228, 17);
+    color: #fff;
+}
+
+.block3:target {
+    background-color: rgb(17, 154, 233);
+    color: #fff;
+}
+
+.block4:target {
+    background-color: rgb(49, 17, 233);
+    color: #fff;
+}
+
+.block5:target {
+    background-color: rgb(233, 17, 143);
+    color: #fff;
+}
+
+.block5 {
+    font-weight: 500;
+    color: red;
+    text-shadow: 1px 1px 3px rgb(17, 17, 17);
+    background: url('../img/dey.jpg') 0px 0px/contain repeat-x;
+}
